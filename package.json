@@ -10,11 +10,11 @@
     "set-version-tags": "set_tags.sh",
     "generate-toc": "doctoc --github README.md CONTRIBUTING.md",
     "dependents-discovery-install": "pip install ghtopdep",
-    "dependents-discovery-list": "@echo NB! public_repo token is required && ghtopdep https://github.com/OleksiyRudenko/gha-git-credentials --token"
+    "dependents-discovery-list": "@echo NB! public_repo token is required && ghtopdep https://github.com/cfacorp/gha-git-credentials --token"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/OleksiyRudenko/gha-git-credentials.git"
+    "url": "git+https://github.com/cfacorp/gha-git-credentials.git"
   },
   "keywords": [
     "GitHub",
@@ -25,9 +25,9 @@
   "author": "Oleksiy Rudenko",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/OleksiyRudenko/gha-git-credentials/issues"
+    "url": "https://github.com/cfacorp/gha-git-credentials/issues"
   },
-  "homepage": "https://github.com/OleksiyRudenko/gha-git-credentials#readme",
+  "homepage": "https://github.com/cfacorp/gha-git-credentials#readme",
   "dependencies": {
     "@vercel/ncc": "^0.34.0"
   }

@@ -33,7 +33,7 @@ jobs:
       - name: Build
         run: npm run build
       - name: Setup git creds
-        uses: oleksiyrudenko/gha-git-credentials@master
+        uses: cfacorp/gha-git-credentials@master
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
       - name: Commit update and tag with rc (forcedly)

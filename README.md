@@ -59,7 +59,7 @@ The minimally required action configuration requires a token being explicitly sp
 Example below uses secrets.GITHUB_TOKEN available to the workflow as a token source.
 
 ```
-- uses: oleksiyrudenko/gha-git-credentials@v2-latest
+- uses: cfacorp/gha-git-credentials@v2-latest
   with:
     token: '${{ secrets.GITHUB_TOKEN }}'
 ```
@@ -80,7 +80,7 @@ jobs:
   publish:
     - uses: actions/checkout@v2
     # Publish to a branch in current repo using GITHUB_TOKEN and other default settings.
-    - uses: oleksiyrudenko/gha-git-credentials@v2-latest
+    - uses: cfacorp/gha-git-credentials@v2-latest
       with:
         token: '${{ secrets.GITHUB_TOKEN }}'
     - run: |
@@ -91,12 +91,12 @@ jobs:
     # Option `global` is set to true as the deployment script may create 
     # a temporary local repo for a build and we want it to reuse git user settings.
     # Option `actor` is assigned as per that different repo cloud user.
-    - uses: oleksiyrudenko/gha-git-credentials@v2.1.1
+    - uses: cfacorp/gha-git-credentials@v2.1.1
       with:
         global: true
         name: 'Oleksiy Rudenko'
         email: 'oleksiy.rudenko@domain.com'
-        actor: 'OleksiyRudenko'
+        actor: 'cfacorp'
         token: '${{ secrets.GL_PAT_WEB_CENTRAL }}'
     - run: |
         git remote add web-central https://gitlab.com/some-organization/website.git
@@ -118,7 +118,7 @@ action version reference.
 ### What version to use?
 
 In workflow `.yml` file you are required to specify action version.
-E.g. `uses: oleksiyrudenko/gha-git-credentials@v2`.
+E.g. `uses: cfacorp/gha-git-credentials@v2`.
 `@v2` here refers to a very specific version of the action script.
 
 So, in this action the options are:
@@ -188,7 +188,7 @@ Features:
 
 ## Action Users
 
-As of November 06, 2022, [762 projects on GitHub depend on this GitHub action](https://github.com/OleksiyRudenko/gha-git-credentials/network/dependents).
+As of November 06, 2022, [762 projects on GitHub depend on this GitHub action](https://github.com/cfacorp/gha-git-credentials/network/dependents).
 
 **10 top rated**
 

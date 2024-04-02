@@ -14,5 +14,5 @@ assignees: ''
 >
 > Remove this line and lines above before submitting this report.
 
-Link to the workflow file that uses `oleksiyrudenko/gha-git-credentials@rc`
+Link to the workflow file that uses `cfacorp/gha-git-credentials@rc`
 _Example_: https://github.com/kottans/frontend-2022-homeworks/blob/main/.github/workflows/update-stats.yml

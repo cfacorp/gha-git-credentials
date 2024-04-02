@@ -38,8 +38,8 @@ in all your interactions with the project.
 Before suggesting an enhancement, new feature, or reporting a bug,
 required change due to GitHub API change or any other issue
 please browse or search project
-[issues](https://github.com/OleksiyRudenko/gha-git-credentials/issues)
-and [pull requests](https://github.com/OleksiyRudenko/gha-git-credentials/pulls).
+[issues](https://github.com/cfacorp/gha-git-credentials/issues)
+and [pull requests](https://github.com/cfacorp/gha-git-credentials/pulls).
 
 If you find a matching issue please contribute there with a comment.
 
@@ -63,7 +63,7 @@ GitHub workflows allow specifying an action's version.
 This might be a versioning tag, a commit or a branch name.
 
 Testing tools and guidelines to consider:
-- https://github.com/OleksiyRudenko/gha-git-credentials-test
+- https://github.com/cfacorp/gha-git-credentials-test
 - https://github.com/tschoffelen/gha
 - https://github.com/nektos/act
 - https://docs.github.com/en/free-pro-team@latest/actions/creating-actions/creating-a-javascript-action#testing-out-your-action-in-a-workflow
@@ -117,12 +117,12 @@ pushes the change.
 
 Invite maintainers, contributors and key users
 to test the Release Candidate and
-[report any bugs](https://github.com/OleksiyRudenko/gha-git-credentials/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5BBUG%5D+Short+bug+description)
-or [confirm that no issues are detected](https://github.com/OleksiyRudenko/gha-git-credentials/issues/new?assignees=&labels=rc-test-ok&template=release-candidate-test-ok.md&title=%5BRC%5D+Release+Candidate+test+-+OK).
+[report any bugs](https://github.com/cfacorp/gha-git-credentials/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5BBUG%5D+Short+bug+description)
+or [confirm that no issues are detected](https://github.com/cfacorp/gha-git-credentials/issues/new?assignees=&labels=rc-test-ok&template=release-candidate-test-ok.md&title=%5BRC%5D+Release+Candidate+test+-+OK).
 
 ### 3. Test the release candidate
 
-- Trigger test at [gha-git-credentials-test](https://github.com/OleksiyRudenko/gha-git-credentials-test)
+- Trigger test at [gha-git-credentials-test](https://github.com/cfacorp/gha-git-credentials-test)
 - Check [kottans/frontend-2022-homeworks actions log](https://github.com/kottans/frontend-2022-homeworks/actions).
   See recent daily `Update students' PR stats` workflow run. 
   It uses the `rc` version of the action.
@@ -144,7 +144,7 @@ or [confirm that no issues are detected](https://github.com/OleksiyRudenko/gha-g
 
 ### 6. Publish release
 
-[Create and publish a release](https://github.com/OleksiyRudenko/gha-git-credentials/releases)
+[Create and publish a release](https://github.com/cfacorp/gha-git-credentials/releases)
 publishing this Action to the GitHub Marketplace.
 
 ## Code of Conduct
@@ -204,7 +204,7 @@ further defined and clarified by project maintainers.
 ### Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported by contacting the project team via [project issues](https://github.com/OleksiyRudenko/gha-git-credentials/issues).
+reported by contacting the project team via [project issues](https://github.com/cfacorp/gha-git-credentials/issues).
 All complaints will be reviewed and investigated and will result in a response that
 is deemed necessary and appropriate to the circumstances. The project team is
 obligated to maintain confidentiality with regard to the reporter of an incident.

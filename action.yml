@@ -1,7 +1,7 @@
 ---
 name: 'Configure git credentials'
 description: 'Set git credentials for commits and operations with remotes'
-author: 'OleksiyRudenko'
+author: 'cfacorp'
 branding:
   icon: 'log-in'
   color: 'blue'
